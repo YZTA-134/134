@@ -7,63 +7,86 @@ Takım 134
 ## Takım Elemanları
 
 - Sıla KARATAŞ: Product Owner
-- Jane Doe: Scrum Master
+- Samet DÖNMEZ: Scrum Master
 - Ceren KARABAĞ: Team Member/Developer
+- Anıl DİNÇ: Team Member/Developer
+- Burak BAŞODA: Team Member/Developer
+
 
 ## Ürün İsmi
 
---Movie App--
+--Bereket AI--
 
 ## Ürün Açıklaması
 
-- Movie App uygulamamız ile insanların izlemek istediği filmlere ve dizilere daha kolay karar vermesini sağlayacağız. İçerisinde binlerce filmi barındıran uygulamamız aynı zamanda Netflix, Prime vb. platformlarda yayınlanıp yayınlanmadığını ve IMDB puanlarını da gösterecek.
+- Evdeki mevcut malzemeleri, bozulma sürelerini ve haftalık bütçeyi kullanarak en az maliyetle en az gıda israfı oluşturacak yemek planı çıkaran yapay zeka destekli mobil mutfak planlayıcısı. YZTA Bootcamp projesi.
 
 ## Ürün Özellikleri
 
-- Filmleri türüne göre ayırma
-- Filmlerin yönetmen, aktör, aktris vb. bilgilerini posteriyle birlikte gösterme
-- IMDB ve Rotten Tomatoes puanlarını gösterme
-- Netflix'te ve Prime'da bulunurluğunu gösterme
+- Evdeki mevcut malzemeleri serbest metin veya hızlı seçim listesiyle girme
+- Malzemelerin bozulma sürelerine göre önceliklendirilmesi (önce bitecek olan kullanılır)
+- Haftalık bütçeye göre en düşük maliyetli yemek planı oluşturma
+- Kişi sayısına göre porsiyon/miktar otomatik ayarlama
+- Alerji ve diyet kısıtlamalarına (glutensiz, vejetaryen vb.) uygun filtreleme
+- Eksik malzemeler için otomatik alışveriş listesi ve tahmini fiyat çıkarma
+- Her plan için "neden bu seçildi" açıklaması gösterme (maliyet, israf riski gibi)
+- Beğenilmeyen tarifler için alternatif öneri isteme
+- Geçmiş tercihleri (sevmediği yemekler, sık kullanılan malzemeler) hatırlama
+- Haftalık plan sonunda "ne kadar uyguladın" geri bildirimi alma
 
 ## Hedef Kitle
 
-- Netflix kullanıcıları
-- Prime kullanıcıları
-- Sinema severler
-- Dizi severler
-- 15 - 65 yaş arası kullanıcılar
+- Bütçesini dikkatli yönetmek isteyen haneler
+- Yoğun çalışan, yemek planlamaya vakit ayıramayan bireyler/çiftler
+- Gıda israfını azaltmak isteyen çevre bilinçli kullanıcılar
+- Kalabalık aileler (3+ kişi, haftalık alışveriş planlaması yapanlar)
+- Öğrenciler ve sınırlı bütçeyle yaşayan genç yetişkinler
+- 20 - 55 yaş arası, mutfakla ilgilenen ama karar yorgunluğu yaşayan kullanıcılar
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Jira Board](https://yzta-team-134.atlassian.net/jira/core/projects/Y1/board?filter=&groupBy=none)
 
 ---
 
 # Sprint 1
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz, 2 günlük kısıtlı süre göz önünde 
+bulundurularak öncelik sırasına göre düzenlenmiştir. Sprint 1'de hedef, uçtan uca akışın 
+(kiler girişi → mock plan → alışveriş listesi) mobilde görülebilir hale getirilmesidir. 
+Bu nedenle gerçek AI optimizasyonu yerine mock/statik veri kullanan story'ler önceliklendirilmiştir. 
+Story'ler task'lere bölünmüştür: Jira Pano'da "Yapılacaklar / Devam Ediyor / Tamam" 
+sütunlarında her task ayrı bilet olarak, `sprint-1` etiketiyle takip edilmektedir.
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+- **Daily Scrum**: Daily Scrum toplantıları zamansal sebeplerden ötürü [Slack/WhatsApp] 
+üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantı notları örneği Readme'de 
+paylaşılmaktadır: [Sprint 1 Daily Scrum Notları](link)
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Sprint board update**: Sprint board screenshotları:
+  ![Board 1](link-to-screenshot-1)
+  ![Board 2](link-to-screenshot-2)
 
-- **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
-
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+- **Ürün Durumu**: Sprint 1 sonunda elde edilen çıktı — mobil PWA'da onboarding, kiler 
+girişi ve mock plan sonucu ekranlarının çalışır hali. Ekran görüntüleri:
+  ![Onboarding Ekranı](link)
+  ![Kiler Girişi Ekranı](link)
+  ![Mock Plan Sonucu](link)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Gerçek AI optimizasyon motoru (OR-Tools entegrasyonu) ve canlı fiyat 
+verisi bağlantısı Sprint 2'ye ertelenmiştir; MVP'nin mock veriyle akışı doğrulaması 
+yeterli görülmüştür. Fiyat verisi için canlı API yerine statik tablo kullanılmasına 
+karar verilmiştir (marketfiyati.org.tr API riski nedeniyle). Çıkan ürünün akışında 
+problem görülmemiştir. Sprint Review katılımcıları: [Sıla KARATAŞ- Samet DÖNMEZ- Ceren KARABAĞ- Anıl DİNÇ- Burak BAŞODA]
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
-
+  - Görev dağılımının rol bazlı netleştirilmesi kararı alınmıştır (PO, Scrum Master, 
+    Data Scientist, AI Engineer, Full-Stack)
+  - Sprint süresinin kısa olması nedeniyle bir sonraki sprintte daha gerçekçi tahmin 
+    puanlaması yapılmasına karar verilmiştir
+  - Veri hazırlığı (tarif, fiyat) ile agent geliştirmenin paralel ilerlemesi için 
+    Data Scientist ve AI Engineer arasında veri formatının (JSON şeması) baştan 
+    netleştirilmesi gerektiği görülmüştür
 ---
 
 # Sprint 2
