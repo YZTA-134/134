@@ -15,7 +15,7 @@ Takım 134
 
 ## Ürün İsmi
 
---Bereket AI--
+- Bereket AI
 
 ## Ürün Açıklaması
 
@@ -45,48 +45,50 @@ Takım 134
 
 ## Product Backlog URL
 
-[Jira Board](https://yzta-team-134.atlassian.net/jira/core/projects/Y1/board?filter=&groupBy=none)
+[Jira Board](https://yzta-team-134.atlassian.net/jira/core/projects/Y1/board)
 
 ---
 
 # Sprint 1
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz, 2 günlük kısıtlı süre göz önünde 
-bulundurularak öncelik sırasına göre düzenlenmiştir. Sprint 1'de hedef, uçtan uca akışın 
-(kiler girişi → mock plan → alışveriş listesi) mobilde görülebilir hale getirilmesidir. 
-Bu nedenle gerçek AI optimizasyonu yerine mock/statik veri kullanan story'ler önceliklendirilmiştir. 
-Story'ler task'lere bölünmüştür: Jira Pano'da "Yapılacaklar / Devam Ediyor / Tamam" 
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz, 2 günlük kısıtlı süre göz önünde
+bulundurularak öncelik sırasına göre düzenlenmiştir. Sprint 1'de hedef, uçtan uca akışın
+(kiler girişi → mock plan → alışveriş listesi) görülebilir ve sunulabilir hale getirilmesidir.
+Bu nedenle gerçek AI optimizasyonu yerine mock/statik veri kullanan story'ler önceliklendirilmiştir.
+Story'ler task'lere bölünmüştür: Jira Pano'da "Yapılacaklar / Devam Ediyor / Tamam"
 sütunlarında her task ayrı bilet olarak, `sprint-1` etiketiyle takip edilmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantıları zamansal sebeplerden ötürü [Slack/WhatsApp] 
-üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantı notları örneği Readme'de 
-paylaşılmaktadır: [Sprint 1 Daily Scrum Notları](link)
+- **Daily Scrum**: Daily Scrum toplantıları zamansal sebeplerden ötürü Slack/WhatsApp
+üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantı notları
+[Sprint 1 Daily Scrum Notları](link) dosyasında paylaşılacaktır.
 
-- **Sprint board update**: Sprint board screenshotları:
-  ![Board 1](link-to-screenshot-1)
-  ![Board 2](link-to-screenshot-2)
+- **Sprint board update**: Jira board takibi Product Backlog URL üzerinden yapılmaktadır.
+Ekran görüntüleri Sprint 1 sonunda ilgili dokümantasyon klasörüne eklenecektir.
 
-- **Ürün Durumu**: Sprint 1 sonunda elde edilen çıktı — mobil PWA'da onboarding, kiler 
-girişi ve mock plan sonucu ekranlarının çalışır hali. Ekran görüntüleri:
-  ![Onboarding Ekranı](link)
-  ![Kiler Girişi Ekranı](link)
-  ![Mock Plan Sonucu](link)
+- **Ürün Durumu**: Sprint 1 sonunda elde edilen çıktı; ürün fikrini, MVP kapsamını,
+örnek veri setini ve kiler girişi → mock plan → alışveriş listesi akışını gösteren
+[Sprint 1 Mock Demo](link) dosyası olacaktır.
+Ekran görüntüleri Sprint 1 sonunda ilgili dokümantasyon klasörüne eklenecektir.
 
-- **Sprint Review**: 
-Alınan kararlar: Gerçek AI optimizasyon motoru (OR-Tools entegrasyonu) ve canlı fiyat 
-verisi bağlantısı Sprint 2'ye ertelenmiştir; MVP'nin mock veriyle akışı doğrulaması 
-yeterli görülmüştür. Fiyat verisi için canlı API yerine statik tablo kullanılmasına 
-karar verilmiştir (marketfiyati.org.tr API riski nedeniyle). Çıkan ürünün akışında 
-problem görülmemiştir. Sprint Review katılımcıları: [Sıla KARATAŞ- Samet DÖNMEZ- Ceren KARABAĞ- Anıl DİNÇ- Burak BAŞODA]
+- **Sprint Review**: Sprint review notları
+[Sprint 1 Review](link) dosyasında yer alacaktır. Sprint 1'de
+gerçek AI entegrasyonu, OR-Tools entegrasyonu ve canlı fiyat verisi kullanılmamış; MVP akışı
+mock veriyle doğrulanmıştır.
 
-- **Sprint Retrospective:**
-  - Görev dağılımının rol bazlı netleştirilmesi kararı alınmıştır (PO, Scrum Master, 
-    Data Scientist, AI Engineer, Full-Stack)
-  - Sprint süresinin kısa olması nedeniyle bir sonraki sprintte daha gerçekçi tahmin 
-    puanlaması yapılmasına karar verilmiştir
-  - Veri hazırlığı (tarif, fiyat) ile agent geliştirmenin paralel ilerlemesi için 
-    Data Scientist ve AI Engineer arasında veri formatının (JSON şeması) baştan 
-    netleştirilmesi gerektiği görülmüştür
+- **Sprint Retrospective**: Sprint retrospective notları
+[Sprint 1 Retrospective](link) dosyasında yer alacaktır.
+
+## Sprint 1 Çıktıları
+
+* [Sprint Planı](link)
+* [Product Requirements](link)
+* [Daily Scrum Notları](link)
+* [Sprint Review](link)
+* [Sprint Retrospective](link)
+* [Demo Senaryosu](link)
+* [Planlama Algoritması](link)
+* [Örnek Veri Seti](link)
+* [Sprint 1 Mock Demo](link)
 ---
 
 # Sprint 2
