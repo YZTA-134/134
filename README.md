@@ -93,6 +93,11 @@ mock veriyle doğrulanmıştır.
 - **Sprint Retrospective**: Sprint retrospective notları
 [Sprint 1 Retrospective](docs/sprint-1-retrospective.md) dosyasında yer alacaktır.
 
+- **Sprint Panosu Güncellemesi**: Sprint panosu ekran görüntüleri:
+  ![Screenshot 5](https://github.com/YZTA-134/134/blob/main/docs/1SprintJira.png)
+  ![Screenshot 6](https://github.com/YZTA-134/134/blob/main/docs/1Sprint2Jira.png)
+  ![Screenshot 7](https://github.com/YZTA-134/134/blob/main/docs/1Sprint3Jira.png)
+
 ## Sprint 1 Çıktıları
 
 * [Sprint Planı](docs/sprint-1-plani.md)
