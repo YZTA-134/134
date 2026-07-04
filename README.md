@@ -75,6 +75,11 @@ Tavuk, Yoğurt, Makarna, Domates, Pirinç, Yumurta), eksik alışveriş listesi 
 bütçe/israf/kiler skorları ve Recharts grafiği, sohbet temizleme
 ve erişilebilirlik (klavye desteği, odak yönetimi, prototip uyarıları).
 Akışın tamamı [Sprint 1 Mock Demo](docs/sprint-1-mock-demo.md) dosyasında anlatılmaktadır.
+Ekran görüntüleri:
+  ![Screenshot 1](https://github.com/YZTA-134/134/blob/main/docs/1Sprint1.png)
+  ![Screenshot 2](https://github.com/YZTA-134/134/blob/main/docs/1Sprint2.png)
+  ![Screenshot 2](https://github.com/YZTA-134/134/blob/main/docs/1Sprint3.png)
+  ![Screenshot 2](https://github.com/YZTA-134/134/blob/main/docs/1Sprint4.png)
 
 - **Sprint Review**: Sprint review notları
 [Sprint 1 Review](docs/sprint-1-review.md) dosyasında yer alacaktır. Sprint 1'de
