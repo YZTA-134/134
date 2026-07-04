@@ -9,7 +9,6 @@ import {
   RiMoonLine,
   RiRestaurant2Line,
   RiShoppingBasket2Line,
-  RiSparkling2Line,
   RiSunLine,
   RiWallet3Line,
 } from "@remixicon/react";
@@ -560,6 +559,7 @@ export function BereketPrototype() {
                         copy={emptyStateCopy}
                         onPrompt={submitPrompt}
                         scenarios={promptScenarios}
+                        ready={isThemeReady}
                       />
                     </MessageScrollerItem>
                   ) : (
@@ -671,36 +671,38 @@ function EmptyChatState({
   copy,
   onPrompt,
   scenarios,
+  ready,
 }: {
   copy: EmptyStateCopy;
   onPrompt: (prompt: string, answer?: string) => void;
   scenarios: DemoPromptScenario[];
+  ready: boolean;
 }) {
+  if (!ready) {
+    return null;
+  }
+
   return (
     <section className="mx-auto flex w-full max-w-3xl flex-col items-center gap-6 px-2 py-10 text-center">
-      <div className="flex flex-col items-center gap-3">
-        <span
-          className="grid size-12 place-items-center rounded-xl border border-border bg-card text-foreground"
-          aria-hidden="true"
+      <div className="flex w-full flex-col items-center gap-2">
+        <h1 className="animate-enter-up text-balance font-semibold text-2xl sm:text-3xl">
+          {copy.title}
+        </h1>
+        <p
+          className="animate-enter-up max-w-xl text-muted-foreground text-sm leading-6"
+          style={{ animationDelay: "80ms" }}
         >
-          <RiSparkling2Line />
-        </span>
-        <div className="flex flex-col gap-2">
-          <h1 className="text-balance font-semibold text-2xl sm:text-3xl">
-            {copy.title}
-          </h1>
-          <p className="max-w-xl text-muted-foreground text-sm leading-6">
-            {copy.description}
-          </p>
-        </div>
+          {copy.description}
+        </p>
       </div>
       <div className="grid w-full gap-2 sm:grid-cols-3">
-        {scenarios.map((scenario) => (
+        {scenarios.map((scenario, index) => (
           <Button
             key={scenario.prompt}
             type="button"
             variant="outline"
-            className="h-auto min-h-14 justify-start whitespace-normal px-4 py-3 text-left leading-5"
+            className="animate-enter-up h-auto min-h-14 justify-start whitespace-normal px-4 py-3 text-left leading-5"
+            style={{ animationDelay: `${160 + index * 60}ms` }}
             onClick={() => onPrompt(scenario.prompt, scenario.answer)}
           >
             {scenario.prompt}
