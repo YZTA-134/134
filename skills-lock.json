@@ -157,6 +157,12 @@
       "skillPath": "skills/oauth/SKILL.md",
       "computedHash": "9dbf0a5cc15d805924816a4df6654b105a163618ff986c79f6974211164b34a7"
     },
+    "playwright-cli": {
+      "source": "microsoft/playwright-cli",
+      "sourceType": "github",
+      "skillPath": "skills/playwright-cli/SKILL.md",
+      "computedHash": "39d67000951a05e8ab3c0e802a2dd55d8d6cb51239b30824c0e3b6c070b7d88f"
+    },
     "plugin-audit": {
       "source": "vercel-labs/vercel-plugin",
       "sourceType": "github",

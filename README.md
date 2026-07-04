@@ -19,7 +19,7 @@ Takım 134
 
 ## Ürün Açıklaması
 
-- Evdeki mevcut malzemeleri, bozulma sürelerini ve haftalık bütçeyi kullanarak en az maliyetle en az gıda israfı oluşturacak yemek planı çıkaran yapay zeka destekli mobil mutfak planlayıcısı. YZTA Bootcamp projesi.
+- Evdeki mevcut malzemeleri, bozulma sürelerini ve haftalık bütçeyi kullanarak en az maliyetle en az gıda israfı oluşturacak yemek planı çıkaran yapay zeka destekli mutfak planlama uygulaması. YZTA Bootcamp 2026 projesi. Sprint 1'de ürün fikrini gösteren ChatGPT tarzı Türkçe web prototipi geliştirilmiştir.
 
 ## Ürün Özellikleri
 
@@ -51,44 +51,50 @@ Takım 134
 
 # Sprint 1
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz, 2 günlük kısıtlı süre göz önünde
-bulundurularak öncelik sırasına göre düzenlenmiştir. Sprint 1'de hedef, uçtan uca akışın
-(kiler girişi → mock plan → alışveriş listesi) görülebilir ve sunulabilir hale getirilmesidir.
-Bu nedenle gerçek AI optimizasyonu yerine mock/statik veri kullanan story'ler önceliklendirilmiştir.
-Story'ler task'lere bölünmüştür: Jira Pano'da "Yapılacaklar / Devam Ediyor / Tamam"
-sütunlarında her task ayrı bilet olarak, `sprint-1` etiketiyle takip edilmektedir.
+- **Sprint board update**: Jira board (Product Backlog URL üzerinden) ve GitHub organization/repo
+(3 Temmuz 2026'da kuruldu) üzerinden takip yapılmaktadır. Ekran görüntüleri Sprint 1 sonunda
+ilgili dokümantasyon klasörüne eklenecektir.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz, 4 Temmuz 2026 tarihindeki tek günlük
+kısıtlı süre göz önünde bulundurularak öncelik sırasına göre düzenlenmiştir. Sprint 1'de hedef,
+uçtan uca akışın (kiler girişi → mock plan → alışveriş listesi) görülebilir ve sunulabilir hale
+getirilmesidir. Bu nedenle gerçek AI optimizasyonu yerine mock/statik veri kullanan story'ler
+önceliklendirilmiştir. Story'ler task'lere bölünmüştür: Jira Pano'da "Yapılacaklar / Devam
+Ediyor / Tamam" sütunlarında her task ayrı bilet olarak, `sprint-1` etiketiyle takip edilmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantıları zamansal sebeplerden ötürü Slack/WhatsApp
 üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantı notları
-[Sprint 1 Daily Scrum Notları](link) dosyasında paylaşılacaktır.
+[Sprint 1 Daily Scrum Notları](docs/daily-scrum-notlari.md) dosyasında paylaşılacaktır.
 
-- **Sprint board update**: Jira board takibi Product Backlog URL üzerinden yapılmaktadır.
-Ekran görüntüleri Sprint 1 sonunda ilgili dokümantasyon klasörüne eklenecektir.
-
-- **Ürün Durumu**: Sprint 1 sonunda elde edilen çıktı; ürün fikrini, MVP kapsamını,
-örnek veri setini ve kiler girişi → mock plan → alışveriş listesi akışını gösteren
-[Sprint 1 Mock Demo](link) dosyası olacaktır.
-Ekran görüntüleri Sprint 1 sonunda ilgili dokümantasyon klasörüne eklenecektir.
+- **Ürün Durumu**: Sprint 1'de (4 Temmuz 2026) ürün fikrini sunuma hazır şekilde gösteren
+bir ChatGPT tarzı Türkçe chat prototipi teslim edilmiştir. Yukarıdaki "Ürün Özellikleri" listesi
+ürünün uzun vadeli vizyonudur; Sprint 1 prototipinde gerçekleştirilenler şunlardır: Türkçe arayüz
+(varsayılan karanlık tema + aydınlık/karanlık tema geçişi), hazır promptlar ve serbest metin
+girişi ile sohbet akışı, mock veriyle 5 günlük yemek planı, 8 malzemeli kiler (Patates, Soğan,
+Tavuk, Yoğurt, Makarna, Domates, Pirinç, Yumurta), eksik alışveriş listesi (tahmini ₺155),
+bütçe/israf/kiler skorları ve Recharts grafiği, sohbet temizleme
+ve erişilebilirlik (klavye desteği, odak yönetimi, prototip uyarıları).
+Akışın tamamı [Sprint 1 Mock Demo](docs/sprint-1-mock-demo.md) dosyasında anlatılmaktadır.
 
 - **Sprint Review**: Sprint review notları
-[Sprint 1 Review](link) dosyasında yer alacaktır. Sprint 1'de
+[Sprint 1 Review](docs/sprint-1-review.md) dosyasında yer alacaktır. Sprint 1'de
 gerçek AI entegrasyonu, OR-Tools entegrasyonu ve canlı fiyat verisi kullanılmamış; MVP akışı
 mock veriyle doğrulanmıştır.
 
 - **Sprint Retrospective**: Sprint retrospective notları
-[Sprint 1 Retrospective](link) dosyasında yer alacaktır.
+[Sprint 1 Retrospective](docs/sprint-1-retrospective.md) dosyasında yer alacaktır.
 
 ## Sprint 1 Çıktıları
 
-* [Sprint Planı](link)
-* [Product Requirements](link)
-* [Daily Scrum Notları](link)
-* [Sprint Review](link)
-* [Sprint Retrospective](link)
-* [Demo Senaryosu](link)
-* [Planlama Algoritması](link)
-* [Örnek Veri Seti](link)
-* [Sprint 1 Mock Demo](link)
+* [Sprint Planı](docs/sprint-1-plani.md)
+* [Product Requirements](docs/product-requirements.md)
+* [Daily Scrum Notları](docs/daily-scrum-notlari.md)
+* [Sprint Review](docs/sprint-1-review.md)
+* [Sprint Retrospective](docs/sprint-1-retrospective.md)
+* [Demo Senaryosu](docs/demo-senaryosu.md)
+* [Planlama Algoritması](docs/planlama-algoritmasi.md)
+* [Örnek Veri Seti](docs/ornek-veri-seti.md)
+* [Sprint 1 Mock Demo](docs/sprint-1-mock-demo.md)
 ---
 
 # Sprint 2
