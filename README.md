@@ -95,6 +95,7 @@ mock veriyle doğrulanmıştır.
 * [Planlama Algoritması](docs/planlama-algoritmasi.md)
 * [Örnek Veri Seti](docs/ornek-veri-seti.md)
 * [Sprint 1 Mock Demo](docs/sprint-1-mock-demo.md)
+* [Sprint 1 Ekran Görüntüleri](docs/1Sprint1.png)(docs/1Sprint2.png)(docs/1Sprint3.png)(docs/1Sprint4.png)
 ---
 
 # Sprint 2
